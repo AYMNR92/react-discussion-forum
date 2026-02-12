@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Profil - Organiz'asso</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div id="root"></div>
+    <!-- Le bundle JavaScript sera injecté ici par votre outil de build (ex : Create React App) -->
+    <script type="module" src="/src/main.jsx"></script>
+    <nav>
+      <ul>
+        <li><a href="forumOuvert.html">Forum Ouvert</a></li>
+        <li><a href="deconnexion">Déconnexion</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="userInfo">
+      <h2>Informations personnelles</h2>
+      <!-- Informations utilisateur (nom, email, etc.) -->
+      <p>Nom : [Votre Nom]</p>
+      <p>Email : [Votre Email]</p>
+    </section>
+    
+    <section id="userMessages">
+      <h2>Mes messages</h2>
+      <!-- Liste des messages publiés par l'utilisateur -->
+      <div id="messageList"></div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Organiz'asso.</p>
+  </footer>
+</body>
+</html>
